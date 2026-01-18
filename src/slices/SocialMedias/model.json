@@ -1,0 +1,39 @@
+{
+  "id": "social_medias",
+  "type": "SharedSlice",
+  "name": "SocialMedias",
+  "description": "SocialMedias",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "social_medias": {
+          "type": "Group",
+          "config": {
+            "label": "social medias",
+            "repeat": true,
+            "fields": {
+              "link": {
+                "type": "Link",
+                "config": {
+                  "label": "link",
+                  "placeholder": "link to social media",
+                  "select": null,
+                  "allowTargetBlank": true,
+                  "allowText": false,
+                  "repeat": false
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "avatar",
+  "type": "SharedSlice",
+  "name": "Avatar",
+  "description": "Avatar",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "avatar": {
+          "type": "Image",
+          "config": {
+            "label": "",
+            "constraint": {
+              "width": 112,
+              "height": 112
+            },
+            "thumbnails": []
+          }
+        },
+        "tag_name": {
+          "type": "Text",
+          "config": {
+            "label": "tag name",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
