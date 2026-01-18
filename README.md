@@ -4,6 +4,8 @@ Este projeto é uma resposta ao desafio proposto na trilha de nextjs, onde foi c
 
 [Desafio](https://app.rocketseat.com.br/projects/dev-links?module_slug=desafio-dev-links)
 
+![](./screenshots.png)
+
 ## 🚀 Funcionalidades
 
 ### Obrigatórias
